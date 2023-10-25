@@ -9,29 +9,40 @@
             @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,700;1,700&display=swap');
           </style>
         <link rel="stylesheet" href="../CSS/docs.css">
+        <link rel="stylesheet" href="../CSS/navbar.css">
         <title>Diosam</title> 
     </head>
     <header>
-      <div class="container">
-          <div class="row align-items-center">
-              <div class="col-md-6">
-                  <a class="navbar-brand" href="#">
-                      <img src="../IMG/logoDS.png" alt="Bootstrap" width="100" height="80">
-                      <span class="texto">Diosam</span>
-                  </a>
-              </div>
-              <div class="contenido">
-            <ul>
-        <li><a href="#">Menú</a></li>
-        <li><a href="vista/DOCS/galeria.php">Galeria</a></li>
-        <li><a href="#">Conócenos</a></li>
-        <li><a href="#">Visítanos</a></li>
-        <li><a href="vista/DOCS/login.php" class="inicia-sesion">Inicia Sesion</a></li>
+    <nav class="navbar navbar-expand-custom navbar-mainbg">
+    <a class="navbar-brand" href="#">
+                        <img src="vista/IMG/LDiosam.png" alt="Bootstrap" width="100" height="80">
+                        <span class="texto">Diosam</span>
+                    </a>
+        <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php"><i class="fas fa-tachometer-alt"></i>Inicio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="vista/DOCS/galeria.php"><i class="far fa-address-book"></i>Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-clone"></i>Conócenos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-calendar-alt"></i>Visítanos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vista/DOCS/login.php"><i class="far fa-chart-bar"></i>Iniciar Sesion</a>
+                </li>
             </ul>
-        </div>  
-          </div>
-      </div>
-  </header>
+        </div>
+    </nav>
+    </header>
       <body>
        <form class="login-form" method="POST">
         <h2>Registro</h2>

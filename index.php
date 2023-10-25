@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="vista/CSS/index.css">
     <link rel="stylesheet" href="vista/CSS/navbar.css">
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
-    <title>Index</title>
+    <title>Diosam</title>
 </head>
 <body>
     <header>
